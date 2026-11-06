@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vinicius Ferreira — IT Coordinator | IT Governance, Infrastructure &amp; Innovation</title>
+<meta name="description" content="IT Coordinator with 15+ years in IT infrastructure, governance and innovation.">
+<meta property="og:title" content="Vinicius Ferreira — IT Coordinator">
+<meta property="og:description" content="IT governance, infrastructure and innovation.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Vinicius Ferreira","jobTitle":"IT Coordinator","email":"vinyplis@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Campo Grande","addressRegion":"MS","addressCountry":"BR"},"sameAs":["https://www.linkedin.com/in/vinicius-ferreira-81807a165/"]}</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128' width='128' height='128' role='img' aria-label='VF'%3E  %3Crect width='128' height='128' rx='26' fill='%230c1117'/%3E  %3Cg fill='none' stroke='%23e6edf5' stroke-width='9' stroke-linecap='square' stroke-linejoin='miter'%3E    %3Cpolyline points='22,32 41,86 60,32'/%3E    %3Cpolyline points='78,86 78,32 108,32'/%3E    %3Cline x1='78' y1='58' x2='102' y2='58'/%3E  %3C/g%3E  %3Crect x='22' y='100' width='38' height='8' fill='%233ddbb8'/%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f4f6f9; --surface:#ffffff; --ink:#111827; --muted:#5b6678; --line:#dde2ea; --a1:#0a7f6e; --a2:#9a6700; --grid:rgba(10,127,110,.08);
+  --head:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace; --body:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif; --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--bg:#0c1117; --surface:#141b24; --ink:#e6edf5; --muted:#93a1b5; --line:#243040; --a1:#3ddbb8; --a2:#f2b84b; --grid:rgba(61,219,184,.06); color-scheme:dark}
+}
+:root[data-theme="dark"]{--bg:#0c1117; --surface:#141b24; --ink:#e6edf5; --muted:#93a1b5; --line:#243040; --a1:#3ddbb8; --a2:#f2b84b; --grid:rgba(61,219,184,.06); color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+html[data-lang="en"] [lang="pt"],html[data-lang="pt"] [lang="en"]{display:none}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;color:var(--ink);font:400 1.0625rem/1.6 var(--body);-webkit-font-smoothing:antialiased;
+  background-color:var(--bg);background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:44px 44px}
+a{color:var(--a1);text-underline-offset:3px}
+a:focus-visible,.btn:focus-visible,button:focus-visible{outline:3px solid var(--a1);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding:clamp(1.25rem,4vw,3rem)}
+h1,h2,h3{font-family:var(--head);margin:0}
+.top{display:flex;justify-content:flex-end}
+.lang{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
+.lang button{font:600 .85rem var(--mono);padding:.4rem .8rem;border:0;background:transparent;color:var(--muted);cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--a1);color:var(--bg)}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem}
+.chip{display:inline-block;font:500 .85rem var(--mono);color:var(--a1);border:1px solid var(--line);background:var(--surface);padding:.3rem .75rem;border-radius:6px}
+.chip.hot{border-color:var(--a1)}
+h1{font-size:clamp(2rem,5.2vw,3.3rem);line-height:1.08;letter-spacing:-.03em;margin:1.1rem 0 .6rem}
+.tag{font:500 clamp(1.15rem,2.6vw,1.5rem)/1.35 var(--head);color:var(--muted);margin:0 0 1.6rem;max-width:30ch}
+.btns{display:flex;flex-wrap:wrap;gap:.75rem}
+.btn{display:inline-block;padding:.7rem 1.2rem;border-radius:8px;text-decoration:none;font-weight:600;border:1px solid var(--a1)}
+.btn.pri{background:var(--a1);color:var(--bg)}
+.btn.sec{color:var(--a1);background:transparent}
+.btn:hover{filter:brightness(1.12)}
+.hero{display:grid;gap:2rem;padding:1.5rem 0 3rem;align-items:center}
+@media (min-width:900px){.hero{grid-template-columns:1.05fr 1fr}}
+.diagram{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:1rem}
+.diagram svg{display:block;width:100%;height:auto}
+.diagram .cap{margin:.4rem .5rem 0;color:var(--muted);font-size:.9rem}
+.node rect{fill:var(--bg);stroke:var(--line)}
+.node.core rect{fill:var(--a1);stroke:var(--a1)}
+.node text{fill:var(--ink);font:600 15px var(--head);text-anchor:middle}
+.node.core text{fill:var(--bg)}
+.wire{stroke:var(--a1);stroke-width:2;fill:none;stroke-dasharray:6 6;animation:flow 1.6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-24}}
+h2{font-size:1.5rem;letter-spacing:-.01em;margin:3.2rem 0 1.1rem}
+.about{max-width:68ch;color:var(--muted);margin:0}
+.stats{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1.2rem 1.4rem}
+.stat b{display:block;font:700 2.4rem/1 var(--head);color:var(--a1);margin-bottom:.35rem}
+.stat span{color:var(--muted);font-size:.97rem}
+.grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1.3rem 1.4rem}
+.card.wide{grid-column:1/-1}
+@media (min-width:900px){.card.wide{grid-column:span 2}}
+.card svg{width:28px;height:28px;stroke:var(--a1);fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;margin-bottom:.7rem}
+.card h3{font-size:1.1rem;margin-bottom:.4rem}
+.card p{margin:0;color:var(--muted);font-size:.98rem}
+.log{list-style:none;margin:0;padding:0;display:grid;gap:1rem}
+.log li{display:grid;gap:.4rem;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--a1);border-radius:12px;padding:1.2rem 1.4rem}
+.log time{font:500 .85rem var(--mono);color:var(--a2)}
+.log h3{font-size:1.15rem}
+.log p{margin:0;color:var(--muted)}
+.edu{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.edu .card h3{font-size:1.05rem}
+.edu .card time{display:block;margin-top:.5rem;font:500 .85rem var(--mono);color:var(--a2)}
+.quote{margin:3.2rem 0 0;padding:2rem;border-radius:16px;background:linear-gradient(135deg,var(--a1),var(--a2));color:#fff}
+.quote p{margin:0;font:700 clamp(1.3rem,3vw,1.9rem)/1.25 var(--head);max-width:34ch}
+.contact{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:1.5rem 1.6rem;margin-top:3.2rem;display:grid;gap:1rem}
+.contact h2{margin:0;font-size:1.3rem}
+.contact ul{list-style:none;margin:0;padding:0;display:grid;gap:.3rem;color:var(--muted)}
+footer{margin:2rem 0 0;color:var(--muted);font-size:.9rem}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 4.5rem)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:30}
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+.nav .in{max-width:1040px;margin:0 auto;padding:.65rem clamp(1.25rem,4vw,3rem);display:flex;align-items:center;gap:1.4rem}
+.nav .logo{font:700 1.05rem var(--head);margin-right:auto}
+.nav a.l{color:var(--muted);text-decoration:none;font-size:.95rem}
+.nav a.l:hover{color:var(--a1)}
+@media (max-width:700px){.nav a.l{display:none}}
+.who{font:500 1rem var(--head);color:var(--muted);margin:1.3rem 0 .5rem}
+.big{font-size:clamp(1.9rem,4.6vw,3rem);line-height:1.12;letter-spacing:-.03em;margin:0 0 1.6rem}
+.big .g{display:block;color:var(--a1)}
+.dom{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.5rem}
+.dom li{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:.35rem .9rem;font-size:.95rem}
+.card .st{display:inline-block;font:500 .78rem var(--mono);color:var(--a2);margin-bottom:.6rem}
+.tgl{width:36px;height:36px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--muted);cursor:pointer;padding:0}
+.tgl:hover{color:var(--a1)}
+.tgl svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8}
+.diagram{position:relative;overflow:hidden}
+.diagram::after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(260px circle at var(--mx,70%) var(--my,30%),color-mix(in srgb,var(--a1) 16%,transparent),transparent 70%)}
+.tabs{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.6rem;margin-bottom:1rem}
+.tabs button{display:flex;align-items:center;gap:.6rem;text-align:left;font:600 1rem var(--head);color:var(--muted);background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:.8rem 1rem;cursor:pointer}
+.tabs button b{display:inline-grid;place-items:center;width:1.7rem;height:1.7rem;border-radius:50%;border:1px solid var(--line);font:600 .85rem var(--mono)}
+.tabs button[aria-selected="true"]{color:var(--ink);border-color:var(--a1)}
+.tabs button[aria-selected="true"] b{background:var(--a1);border-color:var(--a1);color:var(--bg)}
+.panel{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--a1);border-radius:12px;padding:1.3rem 1.5rem}
+.panel h3{font-size:1.2rem;margin-bottom:.4rem}
+.panel p{margin:0;color:var(--muted);max-width:60ch}
+.panel[hidden]{display:none}
+.dash{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.metric{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:1.4rem 1.5rem;position:relative;overflow:hidden}
+.metric::before{content:"";position:absolute;left:0;top:0;width:100%;height:3px;background:linear-gradient(90deg,var(--a1),var(--a2))}
+.metric .lbl{display:block;font:500 .85rem var(--mono);color:var(--muted)}
+.metric .num{display:block;font:700 clamp(3rem,8vw,4.2rem)/1 var(--head);letter-spacing:-.03em;margin:.5rem 0}
+.metric .sub{color:var(--muted);font-size:.95rem}
+button.btn{font:600 1rem var(--body);cursor:pointer}
+.contact ul li{user-select:all}
+.me{display:flex;align-items:center;gap:1rem;flex-wrap:wrap}
+.pic{width:84px;height:84px;border-radius:50%;object-fit:cover;border:2px solid var(--a1);display:block;flex:none}
+.pj{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr))}
+.pjc{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:1.5rem;position:relative;overflow:hidden;display:flex;flex-direction:column;gap:.9rem}
+.pjc::before{content:"";position:absolute;left:0;top:0;width:100%;height:3px;background:linear-gradient(90deg,var(--a1),var(--a2))}
+.pjc header{display:flex;justify-content:space-between;align-items:center;gap:.8rem}
+.pjc .k{font:500 .8rem var(--mono);color:var(--a2)}
+.pjc .live{font:500 .78rem var(--mono);color:var(--a1);border:1px solid var(--a1);border-radius:999px;padding:.15rem .6rem}
+.pjc h3{font-size:1.3rem;line-height:1.25}
+.pjc .lede{margin:0;color:var(--muted)}
+.flow{list-style:none;margin:0;padding:0 0 0 .6rem;border-left:2px solid var(--line);display:grid}
+.flow li{position:relative;padding:.35rem 0 .35rem 1.4rem;display:flex;flex-wrap:wrap;gap:.1rem .6rem;align-items:baseline}
+.flow li::before{content:attr(data-n);position:absolute;left:-.85rem;top:.4rem;width:1.35rem;height:1.35rem;border-radius:50%;background:var(--bg);border:2px solid var(--a1);color:var(--a1);font:600 .7rem var(--mono);display:grid;place-items:center}
+.flow b{font:600 .95rem var(--head)}
+.flow span{color:var(--muted);font-size:.95rem}
+.res{margin:0;padding:.8rem 1rem;border-radius:10px;background:color-mix(in srgb,var(--a1) 10%,var(--surface));font-size:.97rem}
+.pjc .chips{margin-top:auto}
+.pjc .btn{align-self:flex-start}
+.logo{display:inline-flex;align-items:center;gap:.6rem;font-family:var(--mono)}
+.logo .mark{width:28px;height:28px}
+.logo i{font-style:normal;color:var(--a1)}
+@media (prefers-reduced-motion:reduce){.wire{animation:none}}
+@media print{.top,.wire{display:none}}
+</style>
+</head>
+<body>
+<nav class="nav" aria-label="Main"><div class="in">
+  <span class="logo"><svg class="mark" viewBox="0 0 128 128" aria-hidden="true"><rect width="128" height="128" rx="26" fill="#0c1117" stroke="#243040" stroke-width="4"/><g fill="none" stroke="#e6edf5" stroke-width="9" stroke-linecap="square" stroke-linejoin="miter"><polyline points="22,32 41,86 60,32"/><polyline points="78,86 78,32 108,32"/><line x1="78" y1="58" x2="102" y2="58"/></g><rect x="22" y="100" width="38" height="8" fill="#3ddbb8"/></svg><span>vinicius<i>.</i>ferreira</span></span>
+  <a class="l" href="#pj"><span lang="en">Projects</span><span lang="pt">Projetos</span></a>
+  <a class="l" href="#skills"><span lang="en">Capabilities</span><span lang="pt">Atuação</span></a>
+  <a class="l" href="#exp"><span lang="en">Experience</span><span lang="pt">Trajetória</span></a>
+  <a class="l" href="#ct"><span lang="en">Contact</span><span lang="pt">Contato</span></a>
+  <div class="lang" role="group" aria-label="Language"><button type="button" data-l="en" aria-pressed="true">EN</button><button type="button" data-l="pt" aria-pressed="false">PT</button></div>
+  <button class="tgl" type="button" aria-label="Toggle light and dark theme"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 4v16" /><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></svg></button>
+</div></nav>
+<div class="wrap">
+
+  <header class="hero">
+    <div>
+      <div class="me"><div class="chips"><span class="chip"><span lang="en">Based in Campo Grande, Brazil</span><span lang="pt">Campo Grande, MS, Brasil</span></span></div></div>
+      <p class="who"><span lang="en">Vinicius Ferreira · IT Coordinator</span><span lang="pt">Vinicius Ferreira · Coordenador de TI</span></p>
+      <h1 class="big"><span lang="en">Operations that work today.<span class="g">Infrastructure ready for tomorrow.</span></span><span lang="pt">Operação que funciona hoje.<span class="g">Infraestrutura pronta para amanhã.</span></span></h1>
+      <div class="btns">
+        <a class="btn pri" href="https://www.linkedin.com/in/vinicius-ferreira-81807a165/" target="_blank" rel="noopener">LinkedIn</a>
+        <button class="btn sec cp" type="button" data-copy="vinyplis@gmail.com"><span lang="en">Copy email</span><span lang="pt">Copiar e-mail</span></button>
+      </div>
+    </div>
+    <div class="diagram">
+      <svg viewBox="0 0 560 230" role="img" aria-label="People, processes and technology converge in IT and deliver value to the business">
+        <path class="wire" d="M130 40 C190 40 200 115 250 115"/>
+        <path class="wire" d="M130 115 L250 115"/>
+        <path class="wire" d="M130 190 C190 190 200 115 250 115"/>
+        <path class="wire" d="M330 115 L420 115"/>
+        <g class="node"><rect x="20" y="20" width="110" height="40" rx="10"/><text lang="en" x="75" y="46">People</text><text lang="pt" x="75" y="46">Pessoas</text></g>
+        <g class="node"><rect x="20" y="95" width="110" height="40" rx="10"/><text lang="en" x="75" y="121">Processes</text><text lang="pt" x="75" y="121">Processos</text></g>
+        <g class="node"><rect x="20" y="170" width="110" height="40" rx="10"/><text lang="en" x="75" y="196">Technology</text><text lang="pt" x="75" y="196">Tecnologia</text></g>
+        <g class="node core"><rect x="250" y="90" width="80" height="50" rx="12"/><text lang="en" x="290" y="121">IT</text><text lang="pt" x="290" y="121">TI</text></g>
+        <g class="node"><rect x="420" y="90" width="120" height="50" rx="12"/><text lang="en" x="480" y="121">Business</text><text lang="pt" x="480" y="121">Negócio</text></g>
+      </svg>
+      <p class="cap"><span lang="en">IT as the orchestrator between people, processes and technology.</span><span lang="pt">A TI como orquestradora entre pessoas, processos e tecnologia.</span></p>
+    </div>
+  </header>
+
+  <section aria-labelledby="about">
+    <h2 id="about"><span lang="en">About</span><span lang="pt">Sobre</span></h2>
+    <p class="about"><span lang="en">IT is far more than operational support. It means looking at people, systems, infrastructure, security, suppliers, costs and demand at once, always starting from what the business needs. I turn those needs into practical, efficient solutions and keep improving the way IT works.</span><span lang="pt">TI vai muito além do suporte operacional. É olhar para pessoas, sistemas, infraestrutura, segurança, fornecedores, custos e demandas ao mesmo tempo, sempre a partir das necessidades do negócio. Transformo essas necessidades em soluções práticas e eficientes e busco melhorar continuamente.</span></p>
+  </section>
+
+  <section aria-labelledby="pj">
+    <h2 id="pj"><span lang="en">Projects</span><span lang="pt">Projetos</span></h2>
+    <div class="pj">
+      <article class="pjc">
+        <header><span class="k"><span lang="en">Website + ERP integration</span><span lang="pt">Site + integração com ERP</span></span></header>
+        <h3>"Construa um sonho, realize dois"</h3>
+        <p class="lede"><span lang="en">Dedicated campaign website connected to the company ERP, so customers take part without extra work for the team.</span><span lang="pt">Site exclusivo da campanha, conectado ao ERP da empresa, para o cliente participar sem retrabalho para a equipe.</span></p>
+        <ol class="flow">
+          <li data-n="1"><b><span lang="en">Link</span><span lang="pt">Vínculo</span></b><span><span lang="en">sign-ups tied to purchases</span><span lang="pt">cadastros ligados às compras</span></span></li>
+          <li data-n="2"><b><span lang="en">Coupons</span><span lang="pt">Cupons</span></b><span><span lang="en">generated automatically</span><span lang="pt">gerados automaticamente</span></span></li>
+          <li data-n="3"><b><span lang="en">Prizes</span><span lang="pt">Prêmios</span></b><span><span lang="en">customers enter with their coupons</span><span lang="pt">clientes concorrem com os cupons</span></span></li>
+        </ol>
+        <p class="res"><span lang="en">A faster, safer and more efficient process that joins technology, management and customer relationships.</span><span lang="pt">Processo mais ágil, seguro e eficiente, unindo tecnologia, gestão e relacionamento com o cliente.</span></p>
+        <ul class="chips" style="list-style:none;padding:0;margin:0"><li class="chip">ERP</li><li class="chip"><span lang="en">Coupons</span><span lang="pt">Cupons</span></li><li class="chip"><span lang="en">Sign-up</span><span lang="pt">Cadastro</span></li></ul>
+        <a class="btn pri" href="https://www.acerteoalvo.com.br/construaumsonhorealizedois/" target="_blank" rel="noopener"><span lang="en">View the site</span><span lang="pt">Ver o site</span></a>
+      </article>
+      <article class="pjc">
+        <header><span class="k"><span lang="en">In-store kiosk experience</span><span lang="pt">Experiência no totem</span></span></header>
+        <h3><span lang="en">Memory game with ranking</span><span lang="pt">Jogo da memória com ranking</span></h3>
+        <p class="lede"><span lang="en">Gamification sponsored by Deca: the purchase becomes a game customers want to play again.</span><span lang="pt">Gamificação com patrocínio da Deca: a compra vira um jogo que o cliente quer repetir.</span></p>
+        <ol class="flow">
+          <li data-n="1"><b><span lang="en">Purchase</span><span lang="pt">Compra</span></b><span><span lang="en">Deca products</span><span lang="pt">produtos Deca</span></span></li>
+          <li data-n="2"><b><span lang="en">Sign-up</span><span lang="pt">Cadastro</span></b><span><span lang="en">quick, at the kiosk</span><span lang="pt">rápido, no totem</span></span></li>
+          <li data-n="3"><b><span lang="en">Game</span><span lang="pt">Jogo</span></b><span><span lang="en">memory game with the brand’s products</span><span lang="pt">memória com produtos da marca</span></span></li>
+          <li data-n="4"><b>Ranking</b><span><span lang="en">time enters the Top 10</span><span lang="pt">tempo entra no Top 10</span></span></li>
+          <li data-n="5"><b><span lang="en">Wheel</span><span lang="pt">Roleta</span></b><span><span lang="en">instant prizes</span><span lang="pt">prêmios na hora</span></span></li>
+        </ol>
+        <p class="res"><span lang="en">Qualified leads, engagement and the brand present in every round.</span><span lang="pt">Leads qualificados, engajamento e a marca presente em cada rodada.</span></p>
+        <ul class="chips" style="list-style:none;padding:0;margin:0"><li class="chip"><span lang="en">Gamification</span><span lang="pt">Gamificação</span></li><li class="chip">Leads</li><li class="chip"><span lang="en">Kiosk</span><span lang="pt">Totem</span></li></ul>
+        <a class="btn pri" href="https://www.linkedin.com/feed/update/urn:li:activity:7521685593064542209/" target="_blank" rel="noopener"><span lang="en">See the LinkedIn post</span><span lang="pt">Ver a publicação no LinkedIn</span></a>
+      </article>
+    </div>
+  </section>
+
+  <section aria-labelledby="skills">
+    <h2 id="skills"><span lang="en">What I do</span><span lang="pt">Onde eu atuo</span></h2>
+    <div class="grid">
+      <div class="card wide">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="6" rx="1.5"/><rect x="3" y="14" width="18" height="6" rx="1.5"/><path d="M7 7h.01M7 17h.01"/></svg>
+        <h3><span lang="en">IT infrastructure</span><span lang="pt">Infraestrutura de TI</span></h3>
+        <p><span lang="en">Servers, networks, links, security, telephony, systems and equipment across multiple company sites.</span><span lang="pt">Servidores, redes, links, segurança, telefonia, sistemas e equipamentos de várias unidades da empresa.</span></p>
+      </div>
+      <div class="card">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        <h3><span lang="en">Support and continuity</span><span lang="pt">Suporte e continuidade</span></h3>
+        <p><span lang="en">User support, incident handling and prioritisation to keep services running.</span><span lang="pt">Atendimento aos usuários, incidentes e prioridades para manter os serviços no ar.</span></p>
+      </div>
+      <div class="card">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 13l9 5 9-5"/></svg>
+        <h3><span lang="en">Projects and modernisation</span><span lang="pt">Projetos e modernização</span></h3>
+        <p><span lang="en">Hardware and software upgrades, standardisation and rollout of new solutions.</span><span lang="pt">Atualização de hardware e software, padronização e novas soluções.</span></p>
+      </div>
+      <div class="card">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/></svg>
+        <h3><span lang="en">IT governance</span><span lang="pt">Governança de TI</span></h3>
+        <p><span lang="en">Policies, processes, controls and good practices, with continuous improvement.</span><span lang="pt">Políticas, processos, controles e boas práticas, com melhoria contínua.</span></p>
+      </div>
+      <div class="card">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"/><path d="M9 12h7M9 16h7"/></svg>
+        <h3><span lang="en">Vendors and SLAs</span><span lang="pt">Fornecedores e SLA</span></h3>
+        <p><span lang="en">Management of technology suppliers, contracts, services and service levels.</span><span lang="pt">Gestão de fornecedores, contratos, serviços e níveis de serviço.</span></p>
+      </div>
+      <div class="card wide">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+        <h3><span lang="en">Data, innovation and digital transformation</span><span lang="pt">Dados, inovação e transformação digital</span></h3>
+        <p><span lang="en">Data-driven dashboards and processes, and support for business areas in finding opportunities to innovate.</span><span lang="pt">Dashboards e processos orientados por dados, e apoio às áreas de negócio na busca por inovação.</span></p>
+      </div>
+      <div class="card">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        <h3><span lang="en">E-commerce and digital channels</span><span lang="pt">E-commerce e canais digitais</span></h3>
+        <p><span lang="en">Back-end follow-up with the development team, helper pages, integrations and front-end improvements, plus oversight of customer chat on WhatsApp.</span><span lang="pt">Acompanhamento do back-end com a equipe de desenvolvimento, páginas auxiliares, integrações e melhorias de front-end, além da supervisão do atendimento por WhatsApp.</span></p>
+      </div>
+      <div class="card">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16v13H4z"/><path d="M8 7V4h8v3M9 13h6"/></svg>
+        <h3><span lang="en">IT assets and purchasing</span><span lang="pt">Ativos de TI e compras</span></h3>
+        <p><span lang="en">Quotes for computers, servers, cameras and phones, and an annual review of ageing equipment to plan next year’s budget.</span><span lang="pt">Cotação de computadores, servidores, câmeras e telefones, e avaliação anual dos ativos para planejar o orçamento do ano seguinte.</span></p>
+      </div>
+      <div class="card">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg>
+        <h3><span lang="en">Information security</span><span lang="pt">Segurança da informação</span></h3>
+        <p><span lang="en">Supervising security activities, applying policies and watching network traffic to spot threats and resolve incidents.</span><span lang="pt">Supervisão das atividades de segurança, aplicação de políticas e monitoramento do tráfego de rede para identificar ameaças e resolver incidentes.</span></p>
+      </div>
+      <div class="card">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v11H8l-5 4z"/></svg>
+        <h3><span lang="en">Training and documentation</span><span lang="pt">Treinamento e documentação</span></h3>
+        <p><span lang="en">User training and clear guides that make systems easier to adopt.</span><span lang="pt">Treinamento de usuários e guias claros que facilitam o uso dos sistemas.</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="how">
+    <h2 id="how"><span lang="en">How I work</span><span lang="pt">Como eu trabalho</span></h2>
+    <div role="tablist" class="tabs" aria-label="How I work">
+      <button role="tab" type="button" id="t1" aria-controls="p1" aria-selected="true"><b>1</b><span lang="en">Understand</span><span lang="pt">Entender</span></button>
+      <button role="tab" type="button" id="t2" aria-controls="p2" aria-selected="false"><b>2</b><span lang="en">Prioritise</span><span lang="pt">Priorizar</span></button>
+      <button role="tab" type="button" id="t3" aria-controls="p3" aria-selected="false"><b>3</b><span lang="en">Structure</span><span lang="pt">Estruturar</span></button>
+      <button role="tab" type="button" id="t4" aria-controls="p4" aria-selected="false"><b>4</b><span lang="en">Deliver</span><span lang="pt">Entregar</span></button>
+    </div>
+    <div class="panel" role="tabpanel" id="p1" aria-labelledby="t1"><h3><span lang="en">Understand the business</span><span lang="pt">Entender o negócio</span></h3><p><span lang="en">I start from the company’s challenges and needs, not from the tool.</span><span lang="pt">Começo pelos desafios e necessidades da empresa, não pela ferramenta.</span></p></div>
+    <div class="panel" role="tabpanel" id="p2" aria-labelledby="t2" hidden><h3><span lang="en">Set priorities</span><span lang="pt">Definir prioridades</span></h3><p><span lang="en">I balance demand, cost, security and suppliers to decide what comes first.</span><span lang="pt">Equilibro demandas, custos, segurança e fornecedores para decidir o que vem primeiro.</span></p></div>
+    <div class="panel" role="tabpanel" id="p3" aria-labelledby="t3" hidden><h3><span lang="en">Structure processes</span><span lang="pt">Estruturar processos</span></h3><p><span lang="en">I define processes, policies and controls so every solution lasts.</span><span lang="pt">Defino processos, políticas e controles para que cada solução se sustente.</span></p></div>
+    <div class="panel" role="tabpanel" id="p4" aria-labelledby="t4" hidden><h3><span lang="en">Deliver and improve</span><span lang="pt">Entregar e melhorar</span></h3><p><span lang="en">I turn needs into practical solutions, follow the results and keep improving.</span><span lang="pt">Transformo necessidades em soluções práticas, acompanho os resultados e sigo melhorando.</span></p></div>
+  </section>
+
+  <section aria-labelledby="stack">
+    <h2 id="stack"><span lang="en">Domains I work in</span><span lang="pt">Áreas em que trabalho</span></h2>
+    <ul class="dom">
+      <li><span lang="en">Servers</span><span lang="pt">Servidores</span></li>
+      <li><span lang="en">Networks</span><span lang="pt">Redes</span></li>
+      <li>Links</li>
+      <li><span lang="en">Security</span><span lang="pt">Segurança</span></li>
+      <li><span lang="en">Telephony</span><span lang="pt">Telefonia</span></li>
+      <li>Dashboards</li>
+      <li>SLAs</li>
+      <li><span lang="en">IT governance</span><span lang="pt">Governança de TI</span></li>
+      <li><span lang="en">Digital transformation</span><span lang="pt">Transformação digital</span></li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="exp">
+    <h2 id="exp"><span lang="en">Experience</span><span lang="pt">Trajetória</span></h2>
+    <ol class="log">
+      <li>
+        <time><span lang="en">Jan 2021 – present</span><span lang="pt">jan. 2021 até hoje</span></time>
+        <h3><span lang="en">IT Coordinator</span><span lang="pt">Encarregado de Tecnologia da Informação</span></h3>
+        <p>Alvorada Materiais de Construção · Campo Grande, Brazil. <span lang="en">Manages IT, infrastructure, governance and innovation, linking technology to business needs and supporting the continuity and growth of operations.</span><span lang="pt">Gestão de TI, infraestrutura, governança e inovação, conectando tecnologia às necessidades do negócio.</span></p>
+      </li>
+      <li>
+        <time><span lang="en">May 2017 – Dec 2020</span><span lang="pt">mai. 2017 a dez. 2020</span></time>
+        <h3><span lang="en">IT Technician</span><span lang="pt">Técnico em Informática</span></h3>
+        <p>Alvorada Materiais de Construção · Campo Grande, Brazil. <span lang="en">Hardware assembly and maintenance, network cabling, and system formatting and configuration.</span><span lang="pt">Montagem e manutenção de hardware, cabeamento de rede, formatação e configuração de sistemas.</span></p>
+      </li>
+      <li>
+        <time>2016 – 2017</time>
+        <h3><span lang="en">IT Equipment Sales</span><span lang="pt">Vendas de Equipamentos de Informática</span></h3>
+        <p><span lang="en">Customer service and sales of IT equipment.</span><span lang="pt">Atendimento a clientes e vendas de equipamentos de informática.</span></p>
+      </li>
+      <li>
+        <time><span lang="en">May 2011 – Jun 2016</span><span lang="pt">mai. 2011 a jun. 2016</span></time>
+        <h3><span lang="en">IT Technician</span><span lang="pt">Técnico de Informática</span></h3>
+        <p><span lang="en">Hardware assembly and maintenance, network cabling, and system formatting and configuration.</span><span lang="pt">Montagem e manutenção de hardware, cabeamento de rede, formatação e configuração de sistemas.</span></p>
+      </li>
+    </ol>
+  </section>
+
+  <section aria-labelledby="edu">
+    <h2 id="edu"><span lang="en">Education</span><span lang="pt">Formação</span></h2>
+    <div class="edu">
+      <div class="card"><h3><span lang="en">Specialist degree in IT Governance (postgraduate, lato sensu)</span><span lang="pt">Pós-graduação Lato Sensu em Governança de TI (especialista)</span></h3><p>UNIASSELVI, Brazil</p><time><span lang="en">Completed Mar 2026</span><span lang="pt">Concluída em mar. 2026</span></time></div>
+      <div class="card"><h3><span lang="en">Technologist degree (CST) in Innovation Management</span><span lang="pt">Tecnólogo (CST) em Gestão da Inovação</span></h3><p>UNIASSELVI, Brazil</p><time><span lang="en">Completed Jan 2025 · degree conferred Jul 2025</span><span lang="pt">Concluído em jan. 2025 · colação de grau em jul. 2025</span></time></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="certs">
+    <h2 id="certs"><span lang="en">Certifications and courses</span><span lang="pt">Certificações e cursos</span></h2>
+    <div class="edu">
+      <div class="card"><span class="st"><span lang="en">Coming soon</span><span lang="pt">Em breve</span></span><h3>ITIL 5</h3><p><span lang="en">IT service management framework by PeopleCert.</span><span lang="pt">Framework de gestão de serviços de TI da PeopleCert.</span></p></div>
+      <div class="card"><span class="st"><span lang="en">Coming soon</span><span lang="pt">Em breve</span></span><h3><span lang="en">Claude AI course</span><span lang="pt">Curso de Claude AI</span></h3><p><span lang="en">Applying generative AI to work and business processes.</span><span lang="pt">IA generativa aplicada ao trabalho e aos processos do negócio.</span></p></div>
+    </div>
+  </section>
+
+  <div class="quote"><p><span lang="en">“Technology should not exist just to work. It should work to help the business evolve.”</span><span lang="pt">“Tecnologia não deve existir apenas para funcionar. Deve funcionar para fazer o negócio evoluir.”</span></p></div>
+
+  <section class="contact" aria-labelledby="ct">
+    <h2 id="ct"><span lang="en">Let’s talk</span><span lang="pt">Vamos conversar?</span></h2>
+    <ul>
+      <li>vinyplis@gmail.com</li>
+      <li>+55 67 99259-2101</li>
+      <li><a href="https://www.linkedin.com/in/vinicius-ferreira-81807a165/" target="_blank" rel="noopener">linkedin.com/in/vinicius-ferreira-81807a165</a></li>
+    </ul>
+    <div class="btns"><button class="btn pri cp" type="button" data-copy="vinyplis@gmail.com"><span lang="en">Copy email</span><span lang="pt">Copiar e-mail</span></button><a class="btn sec" href="https://www.linkedin.com/in/vinicius-ferreira-81807a165/" target="_blank" rel="noopener">LinkedIn</a></div>
+  </section>
+
+  <footer>Vinicius Ferreira · Campo Grande, MS, Brazil</footer>
+</div>
+<script>
+(function(){
+  var r=document.documentElement;
+  var l=/^pt/i.test(navigator.language||"")?"pt":"en";
+  function set(x){
+    r.setAttribute("data-lang",x);
+    r.lang=x==="pt"?"pt-BR":"en";
+    var b=document.querySelectorAll(".lang button");
+    for(var i=0;i<b.length;i++){b[i].setAttribute("aria-pressed",String(b[i].getAttribute("data-l")===x));}
+  }
+  var bs=document.querySelectorAll(".lang button");
+  for(var i=0;i<bs.length;i++){(function(b){b.addEventListener("click",function(){set(b.getAttribute("data-l"));});})(bs[i]);}
+  set(l);
+  var tg=document.querySelector(".tgl");
+  if(tg){tg.addEventListener("click",function(){
+    var c=r.getAttribute("data-theme")||(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");
+    r.setAttribute("data-theme",c==="dark"?"light":"dark");
+  });}
+  var tabs=document.querySelectorAll('.tabs [role="tab"]');
+  function pick(n){for(var j=0;j<tabs.length;j++){var on=j===n;tabs[j].setAttribute("aria-selected",String(on));tabs[j].tabIndex=on?0:-1;document.getElementById(tabs[j].getAttribute("aria-controls")).hidden=!on;}}
+  for(var k=0;k<tabs.length;k++){(function(n){
+    tabs[n].addEventListener("click",function(){pick(n);});
+    tabs[n].addEventListener("keydown",function(e){var m=e.key==="ArrowRight"?n+1:e.key==="ArrowLeft"?n-1:-1;if(m>=0&&m<tabs.length){tabs[m].focus();pick(m);}});
+  })(k);}
+  pick(0);
+  function copyText(t,done){
+    function fb(){var ta=document.createElement("textarea");ta.value=t;ta.setAttribute("readonly","");ta.style.cssText="position:fixed;opacity:0;top:0";document.body.appendChild(ta);ta.select();var ok=false;try{ok=document.execCommand("copy");}catch(e){}document.body.removeChild(ta);done(ok);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(function(){done(true);},fb);}else{fb();}
+  }
+  var cps=document.querySelectorAll(".cp");
+  for(var c=0;c<cps.length;c++){(function(b){
+    b.addEventListener("click",function(){
+      var html=b.innerHTML,t=b.getAttribute("data-copy");
+      copyText(t,function(ok){
+        b.textContent=ok?(r.getAttribute("data-lang")==="pt"?"Copiado!":"Copied!"):t;
+        setTimeout(function(){b.innerHTML=html;},ok?1800:5000);
+      });
+    });
+  })(cps[c]);}
+  var nums=document.querySelectorAll(".num");
+  var rm=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function show(el,v){el.textContent=v+el.getAttribute("data-suf");}
+  if(!rm&&"IntersectionObserver" in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){
+      if(!e.isIntersecting)return;io.unobserve(e.target);
+      var el=e.target,to=+el.getAttribute("data-to"),t0=null;
+      function f(t){if(t0===null)t0=t;var p=Math.min((t-t0)/1000,1);show(el,Math.round(to*(1-Math.pow(1-p,3))));if(p<1)requestAnimationFrame(f);}
+      requestAnimationFrame(f);
+    });},{threshold:.4});
+    nums.forEach(function(n){show(n,0);io.observe(n);});
+  }
+  var dg=document.querySelector(".diagram");
+  if(dg&&!(window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches)){
+    dg.addEventListener("pointermove",function(e){var b=dg.getBoundingClientRect();dg.style.setProperty("--mx",(e.clientX-b.left)+"px");dg.style.setProperty("--my",(e.clientY-b.top)+"px");});
+  }
+})();
+</script>
+</body>
+</html>
